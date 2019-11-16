@@ -56,7 +56,7 @@ public class App {
                 }
 
                 System.out.println("Ratio between ERROR/FATAL and all: " + BigDecimal.valueOf(errorAndFatalLogsCount / allLogsCount)
-                        .setScale(4, RoundingMode.HALF_UP).doubleValue());
+                        .setScale(2, RoundingMode.HALF_UP).doubleValue());
 
                 List<String> libs = getAllMatches(fileContents, LIB_REGEX);
                 libs.removeIf(s -> !s.contains("."));
