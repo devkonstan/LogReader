@@ -1,4 +1,4 @@
-# Logger
+# LogReader
 Wymagania dot dzialania aplikacji:
 1) po starcie szuka na dysku D: katalogu o nazwie 'logs'
 2) po znalezieniu katalogu aplikacja plik po pliku interpretuje pliki z logami w kolejnosci lastModified descending
